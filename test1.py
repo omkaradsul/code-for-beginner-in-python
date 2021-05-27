@@ -1,7 +1,2 @@
-def make_pizza(topping='bacon'):
-    """Make a single-topping pizza."""
-    print("Have a " + topping + " pizza!")
-
-
-make_pizza()
-make_pizza('pepperoni')
+import numpy as np
+print(np.array([range(i, i + 3) for i in [2, 4, 6]]))
