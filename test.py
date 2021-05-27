@@ -1,7 +1,4 @@
-numbers = [1, 1, 1, 1, 5,
-           5, 2, 5, 2, 2]
-for x_count in numbers:   #print("x" * x_count)
-    output = ""
-    for count in range(x_count):
-        output += "x"
-    print(output)
+squares = []
+for x in range(1, 11):
+    squares.append(x**2)
+print(squares)
